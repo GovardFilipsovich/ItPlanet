@@ -15,6 +15,5 @@ class User(models.Model):
     lastName = models.CharField(max_length=100, default='')
     email = models.EmailField()
     password = models.CharField(max_length=100, default='')
-    class Meta:
-        ordering = ['lastName']
+
 
